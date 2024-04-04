@@ -29,10 +29,10 @@ LIMIT 500;
 SELECT DISTINCT instituto
 FROM `basedosdados.br_poder360_pesquisas.microdados`
 WHERE ano = 2018 AND sigla_uf = 'SP';
-/* No caso acima foi identificado que o Ibope não fez pesquisa no estado de São Paulo no ano de 2018*/
+/* No caso acima foi identificado que o Ibope não fez pesquisa no estado de São Paulo no ano de 2018 */
 
 
-/* Exercício: Quais as siglas de partidos que aparecem nas pesquisas eleitorais desde 2014?*/
+/* Exercício: Quais as siglas de partidos que aparecem nas pesquisas eleitorais desde 2014? */
 SELECT DISTINCT sigla_partido
 FROM `basedosdados.br_poder360_pesquisas.microdados`
 WHERE ano > 2013;
